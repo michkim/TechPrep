@@ -19,7 +19,7 @@ def removeElement(nums, val):
         if(end <= i):
             break
         if(n == val):
-            nums[i],nums[end] = nums[end], nums[i]
+            nums[i],nums[end] = nums[end], nums[i] #swap
         #print (','.join(map(str,nums)))
 
 ##    return end+1
